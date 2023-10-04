@@ -1,0 +1,131 @@
+:root{
+   --pink:rgb(151, 30, 74);
+   --yellow:rgb(255, 213, 0);
+   --black:black;
+
+}
+*,h2,h3{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url(pexels-isaiah-samuel-revadilla-2601274.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+header{
+    background-color: white;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+header h2{
+    flex:2;
+    color: var(--pink);
+    min-width:250px;
+}
+header a{
+    text-decoration: none;
+    
+}
+nav{
+    display: flex;
+    flex:2;
+    flex-wrap: wrap;
+}
+nav a{
+    flex:1;
+    margin:10px;
+    min-width:120px;
+    transition-duration:2s;
+}
+nav a:hover{
+    color: var(--pink);
+    background-color: black;
+}
+.Maintext{
+    
+    display: flex;
+    flex-direction: column;
+    height:70vh;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.Maintext div{
+    margin-top: 10px;
+}
+.mt1{
+    color:var(--yellow);
+    font-size:30px;
+    font-weight: bolder;
+    width: fit-content;
+    background-color:var(--black);
+    border-radius: 10px;
+    
+}
+.mt2{
+    color: var(--pink);
+    background-color:pink;
+    font-style: italic;
+    font-size:20px;
+    border-radius:10px;  
+   padding:20px;
+   text-align: center;
+}
+.Maintext button{
+    width:60px;
+    background-color:palevioletred ;
+    border-radius: 10px;
+}
+.Maintext button:hover{
+    background-color: white;
+}
+.body h3{
+    color: var(--pink);
+    text-align: center;
+    font-weight: bolder;
+    padding-top:10px;
+}
+.body{
+    background: linear-gradient(to right,rgb(65, 133, 165),rgb(139, 203, 233));
+    
+}
+table{
+    width:100%;
+   
+    text-align: center;
+}
+
+
+th{
+    color:var(--yellow);
+    
+}
+
+.Products{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    
+}
+.location{
+    height:20vh;
+}
+.location h3{
+    color: var(--pink);
+    text-align: center;
+    font-weight: bolder;
+    padding-top:10px;
+}
+.Loc{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+   
+}
+address{
+    padding:40px;
+}
+
